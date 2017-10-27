@@ -1,8 +1,23 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap'; 
+import { Container, Row, Col } from 'reactstrap';
 
 function isSearched(searchTerm) {
     return function (item) {
+        // self-defined String.prototype.includes for IE
+        if (!String.prototype.includes) {
+            String.prototype.includes = function (search, start) {
+                if (typeof start !== 'number') {
+                    start = 0;
+                }
+
+                if (start + search.length > this.length) {
+                    return false;
+                } else {
+                    return this.indexOf(search, start) !== -1;
+                }
+            };
+        }
+
         return !searchTerm ||
             item.name.toLowerCase().includes(searchTerm.toLowerCase());
     }
