@@ -1,5 +1,6 @@
 .main {
-  margin: 20px;
+  max-width: 980px;
+  margin: 20px auto;
 }
 
 .search {
@@ -7,7 +8,6 @@
 }
 
 form i {
-  font-size: 22px;
   color: gray;
 }
 
@@ -51,7 +51,7 @@ form i {
   padding: 0 5px;
 }
 
-.table-row > span > i{
+.table-row i{
   background-color: transparent;
   color: gray;
 }
