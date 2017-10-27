@@ -27,19 +27,19 @@ const Table = ({ list, pattern }) =>
     <div className="table">
         {list.records.filter(isSearched(pattern)).map(item =>
             <div key={item.objectID} className="table-row">
-                <Container fluid="true">
+                <Container>
                     <Row className="show-grid">
-                        <Col xs="12" sm="6" md="4">
+                        <Col xs="auto" sm="6" md="4">
                             <i className="iconfont">&#xe684;</i>
                             &nbsp;{item.name}
                         </Col>
-                        <Col xs="12" sm="6" md="4">
+                        <Col xs="auto" sm="6" md="4">
                             {item.email}
                         </Col>
-                        <Col xs="12" sm="6" md="3">
+                        <Col xs="auto" sm="6" md="3">
                             {item.time}
                         </Col>
-                        <Col xs="12" sm="6" md="1">
+                        <Col xs="auto" sm="6" md="1">
                             <i className="iconfont">&#xe600;</i>
                         </Col>
                     </Row>

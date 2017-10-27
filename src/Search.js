@@ -1,8 +1,7 @@
 import React from 'react';
 
-const Search = ({ value, onChange, children }) =>
+const Search = ({ value, onChange }) =>
     <form>
-        {children}
         <i className="iconfont">&#xe681;</i>
         &nbsp;
         <input
