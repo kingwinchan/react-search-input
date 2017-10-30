@@ -19,7 +19,7 @@
 
 ## What about the JSON data?
     File is located at src/data/record.json.  
-    Data should be added in this format, and objectID should be mandatory and unique.
+    Data should be added in this format, and **objectID** should be mandatory and unique.
     {
         "name" : 
         "email": 
