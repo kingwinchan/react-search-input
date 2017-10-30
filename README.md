@@ -26,3 +26,10 @@
         "time" : 
         "objectID": 
     }
+
+## How many browsers does it support?
+    This project works well in the following Browsers:
+    * Chrome 61(32bits)
+    * FireFox 56(32bits)
+    * Microsoft Edge
+    * IE 11
