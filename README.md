@@ -9,4 +9,5 @@
     `npm build`
 
 ## What libraries and frameworks do you use?
-    UI library bootstrap which has been used for responsive design.
+    1. create-react-app for building this project as it is the best scaffold to setup react project.
+    2. UI library bootstrap is used for responsive design.
