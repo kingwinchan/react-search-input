@@ -1,7 +1,7 @@
 # Challenge #1
 ## About this Repository
-    The goal of this repo is to build a functionality that enables users  
-    to search transaction history according to the keyword.
+    The goal of this repo is to build a functionality that enables users to search transaction history  
+    according to the keyword.
 
 ## How to use this code?
 `install node and npm`
